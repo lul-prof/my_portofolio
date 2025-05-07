@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm Israel Mutua</h1>
+        <p class="tagline">Python Developer & Web Designer</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>I am a passionate Python developer with expertise in web development and design. I create elegant, efficient, and user-friendly solutions that help businesses and individuals achieve their goals.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <h2>What I Can Do</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Creating responsive and dynamic websites using Python, Flask, and modern web technologies.</p>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>Backend Development</h3>
+            <p>Building robust server-side applications and APIs with Python and databases.</p>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing attractive and user-friendly interfaces that enhance user experience.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+        <!-- Add your projects here -->
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </div>
+</section>
+{% endblock %}
