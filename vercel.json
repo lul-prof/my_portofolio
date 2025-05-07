@@ -1,6 +1,9 @@
 {
     "builds": [
       {
+        "buildCommand": "pip install -r requirements.txt",
+        "installCommand": "apt-get update && apt-get install -y default-libmysqlclient-dev",
+        "framework": null,
         "src": "app.py",
         "use": "@vercel/python"
       }
