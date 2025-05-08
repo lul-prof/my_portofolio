@@ -167,4 +167,4 @@ def internal_error(error):
     return render_template('index.html', projects=get_fallback_projects()), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
